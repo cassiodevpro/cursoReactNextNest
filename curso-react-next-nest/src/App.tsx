@@ -1,7 +1,14 @@
+import './styles.css';
+import './styles/theme.css';
+import { Heading } from './components/Heading';
+
 export function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+    <Heading/>
+    <p>
+        Cassio Moreira de Souza
+    </p>
+    </>
   )
 }
