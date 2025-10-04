@@ -1,5 +1,4 @@
-import './styles.css';
-import './styles/theme.css';
+
 import { Heading } from './components/Heading';
 
 export function App() {
